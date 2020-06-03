@@ -1,0 +1,5 @@
+print('-----------------------DÉCIMO DESAFIO-----------------------')
+nome = input('Olá , qual seu nome?')
+carteira = int(input('Quanto há na sua carteira nesse momento?'))
+dolar = (carteira/4.40)
+print('{}, com R${} você consegue comprar U${:.2f}, considerando o dolar à R$4.40 no dia 22/02/2020'.format(nome,carteira,dolar))

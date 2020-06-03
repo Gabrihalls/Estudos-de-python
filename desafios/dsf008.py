@@ -1,0 +1,6 @@
+print('-----------------------OITAVO DESAFIO-----------------------')
+nome = input('Olá , qual o seu nome?:')
+n1 = float(input('Bem vindo(a) ao meu teste {} , por favor selecione uma distância em metros:'.format(nome)))
+c = (n1*100)
+mm = (n1*1000)
+print('{}, {} metros são {} centímetros\nE também são {} milímetros'.format(nome,n1,c,mm))
